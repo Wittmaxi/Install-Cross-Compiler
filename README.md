@@ -1,5 +1,5 @@
 # Install-Cross-Compiler
-Installs the Cross compiler required in order to build CLINL
+Installs the Cross compiler required in order to build CLINL (clinl.org)
 
 ## Usage
 Simply make the script executable and execute it. 
