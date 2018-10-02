@@ -2,7 +2,7 @@
 Installs the Cross compiler required in order to build CLINL (clinl.org)
 
 ## Usage
-Simply make the script executable and execute it. 
+Simply make the script executable and execute it. The script assumes that you have installed the dependencies listed here: https://wiki.osdev.org/GCC_Cross-Compiler
 
 ## Actions
 The script will mostly do what this tutorial reccomends: https://wiki.osdev.org/GCC_Cross-Compiler
