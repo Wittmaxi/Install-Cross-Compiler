@@ -10,10 +10,10 @@ mkdir $HOME/opt/cross
 mkdir $HOME/clinl_cc_build___
 cd $HOME/clinl_cc_build___
 wget https://ftp.gnu.org/gnu/binutils/binutils-2.31.tar.xz
-wget ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-8.2.0/gcc-8.2.0.tar.xz
+wget ftp://ftp.fu-berlin.de/unix/languages/gcc/releases/gcc-7.3.0/gcc-7.3.0.tar.xz
 
 tar xf ./binutils-2.31.tar.xz
-tar xf ./gcc-8.2.0.tar.xz
+tar xf ./gcc-7.3.0.tar.xz
 
 mkdir build_binutils
 cd build_binutils
@@ -26,7 +26,7 @@ cd ..
 mkdir build_gcc
 cd build_gcc
 
-../gcc-8.2.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
+../gcc-7.3.0/configure --target=$TARGET --prefix="$PREFIX" --disable-nls --enable-languages=c,c++ --without-headers
 make all-gcc
 make all-target-libgcc
 make install-gcc
